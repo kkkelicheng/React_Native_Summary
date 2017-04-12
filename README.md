@@ -2,17 +2,21 @@
 
 # 写在前面
 
-本项目的目的仅仅是想把react-native做一个<span style="color:red">简单的应用</span>，**嵌入到原生中**。一者是为了使用热更新，二者是为了某些业务的需求。对react-native不考虑大的担当，权当玩一玩。
+本项目的目的仅仅是想把react-native做一个<span style="color:red">简单的应用</span>，**嵌入到原生中**。
+
+一者是为了使用热更新，二者是为了某些业务的需求。
+
+对react-native不考虑大的担当，权当玩一玩。
 
 ## 总体印象
 
 1. react-native所需要的原生工程文件通过npm来安装。
-2. cocospod 来引入这些安装的工程。
+2. CocoaPods 来引入这些安装的工程。
 3. 在工程的根目录新建一个固定名字的index.ios.js文件，作为react-native的入口。
 
 
 ## 嵌入原生的应用
-假设你现在有一个原生的app，也假设用的是cocospod做为管理工具。
+假设你现在有一个原生的app，也假设用的是CocoaPods做为管理工具。
 
 #### 当前环境
 
