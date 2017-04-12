@@ -1,25 +1,28 @@
-#react-native总结
+# react-native总结
 
-#写在前面
+# 写在前面
+
 本项目的目的仅仅是想把react-native做一个<span style="color:red">简单的应用</span>，**嵌入到原生中**。一者是为了使用热更新，二者是为了某些业务的需求。对react-native不考虑大的担当，权当玩一玩。
 
-##总体印象
+## 总体印象
+
 1. react-native所需要的原生工程文件通过npm来安装。
 2. cocospod 来引入这些安装的工程。
 3. 在工程的根目录新建一个固定名字的index.ios.js文件，作为react-native的入口。
 
 
-##嵌入原生的应用
+## 嵌入原生的应用
 假设你现在有一个原生的app，也假设用的是cocospod做为管理工具。
-####当前环境
+
+#### 当前环境
 
 * node v7.8.0
 * npm v4.2.0 
 * CocoaPods v1.2.1
 * Xcode v8.2
 
-####嵌入的准备工作仅三步
-* 1. 新建一个package.json供npm使用
+#### 嵌入的准备工作仅三步
+1. 新建一个package.json供npm使用
 	
 	```
 	// package.json  
@@ -48,14 +51,14 @@
 	另外，react-native对react的版本有严格要求，高于或低于某个范围都不可以。
 	
 
-* 2.安装package.json中的组件
+2. 安装package.json中的组件
 在`package.json`所在的文件目录，使用终端
 	
 	```
 	$ npm install
 	#安装React和React Native模块
 	```
-* 3.使用CocoaPods添加模块依赖关系
+3. 使用CocoaPods添加模块依赖关系
 
 	下面是Podfile文件
 	
@@ -83,25 +86,29 @@
 	修改了Podfile文件以后，使用`pod install`来管理依赖关系
 
 -----
-至此环境已经安装好了，可以写react-native的代码了。
+	至此环境已经安装好了，可以写react-native的代码了。
 
-#Demo文件说明
-##从index.ios.js开始
-在工程的根目录新建一个ios.index.js，入口就是这里了。以后的工作都是从这里开始。
-##ReactNativeComponent中都是js页面
-##WrappedViewFromRN封装的View和Controller
+# Demo文件说明
+
+## 从index.ios.js开始
+    在工程的根目录新建一个ios.index.js，入口就是这里了。以后的工作都是从这里开始。
+
+## ReactNativeComponent中都是js页面
+
+## WrappedViewFromRN封装的View和Controller
+
 - WrappedRNView
 
- 对ReactNative初始化来的View进行了一层包装方便使用。
+ 	对ReactNative初始化来的View进行了一层包装方便使用。
 	
 - WrappedRNViewController
 	
 	对WrappedRNView进行了一层包装,直接加到了controller的rootView上，而没有进行替换。方便做其他的改动。
 
-##Examples都是例子文件
+## Examples都是例子文件
 
 
-#功能
+# 功能
 #### 原生多入口进入RN页面
 #### RN页面退出进入原生页面
 
@@ -110,7 +117,7 @@
 
 <br>
 
-#一些参考链接
+# 一些参考链接
 [嵌入到现有原生应用（react-native中文网）](http://reactnative.cn/docs/0.43/integration-with-existing-apps.html#content)
 
 
