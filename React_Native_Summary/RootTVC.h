@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootTVC.h
 //  React_Native_Summary
 //
 //  Created by licheng ke on 2017/4/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootTVC : UITableViewController
 
 @end
-

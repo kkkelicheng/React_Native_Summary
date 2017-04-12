@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		0ED5B24F1E9B6FBF00BF7408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B24E1E9B6FBF00BF7408 /* main.m */; };
 		0ED5B2521E9B6FBF00BF7408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B2511E9B6FBF00BF7408 /* AppDelegate.m */; };
-		0ED5B2551E9B6FBF00BF7408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B2541E9B6FBF00BF7408 /* ViewController.m */; };
 		0ED5B2581E9B6FBF00BF7408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED5B2561E9B6FBF00BF7408 /* Main.storyboard */; };
 		0ED5B25A1E9B6FBF00BF7408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED5B2591E9B6FBF00BF7408 /* Assets.xcassets */; };
 		0ED5B25D1E9B6FBF00BF7408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED5B25B1E9B6FBF00BF7408 /* LaunchScreen.storyboard */; };
+		0ED5B2661E9B7C9B00BF7408 /* RootTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B2651E9B7C9B00BF7408 /* RootTVC.m */; };
+		0ED5B2BE1E9E1D8E00BF7408 /* WrappedRNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B2BD1E9E1D8E00BF7408 /* WrappedRNView.m */; };
+		0ED5B2C51E9E22F800BF7408 /* WrappedRNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B2C41E9E22F800BF7408 /* WrappedRNViewController.m */; };
+		0EFA45041E9E4CA4004E226F /* NativePushRNController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA45031E9E4CA4004E226F /* NativePushRNController.m */; };
+		A1811C7795D1EF4AA40523FD /* libPods-React_Native_Summary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96543C4F98C2240E2A2A9189 /* libPods-React_Native_Summary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,21 @@
 		0ED5B24E1E9B6FBF00BF7408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0ED5B2501E9B6FBF00BF7408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0ED5B2511E9B6FBF00BF7408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0ED5B2531E9B6FBF00BF7408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0ED5B2541E9B6FBF00BF7408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0ED5B2571E9B6FBF00BF7408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0ED5B2591E9B6FBF00BF7408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ED5B25C1E9B6FBF00BF7408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ED5B25E1E9B6FBF00BF7408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED5B2641E9B7C9B00BF7408 /* RootTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTVC.h; sourceTree = "<group>"; };
+		0ED5B2651E9B7C9B00BF7408 /* RootTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTVC.m; sourceTree = "<group>"; };
+		0ED5B2BC1E9E1D8E00BF7408 /* WrappedRNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrappedRNView.h; sourceTree = "<group>"; };
+		0ED5B2BD1E9E1D8E00BF7408 /* WrappedRNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrappedRNView.m; sourceTree = "<group>"; };
+		0ED5B2C31E9E22F800BF7408 /* WrappedRNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrappedRNViewController.h; sourceTree = "<group>"; };
+		0ED5B2C41E9E22F800BF7408 /* WrappedRNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrappedRNViewController.m; sourceTree = "<group>"; };
+		0EFA45021E9E4CA4004E226F /* NativePushRNController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativePushRNController.h; sourceTree = "<group>"; };
+		0EFA45031E9E4CA4004E226F /* NativePushRNController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativePushRNController.m; sourceTree = "<group>"; };
+		96543C4F98C2240E2A2A9189 /* libPods-React_Native_Summary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-React_Native_Summary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5680843FA0A4A3A924B9D8 /* Pods-React_Native_Summary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_Summary.release.xcconfig"; path = "Pods/Target Support Files/Pods-React_Native_Summary/Pods-React_Native_Summary.release.xcconfig"; sourceTree = "<group>"; };
+		D964C1F31C4B1B9B364DAF3B /* Pods-React_Native_Summary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_Summary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-React_Native_Summary/Pods-React_Native_Summary.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1811C7795D1EF4AA40523FD /* libPods-React_Native_Summary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +58,8 @@
 			children = (
 				0ED5B24C1E9B6FBF00BF7408 /* React_Native_Summary */,
 				0ED5B24B1E9B6FBF00BF7408 /* Products */,
+				F1E09BCF6A03E31C5DA2CD79 /* Pods */,
+				21FB91179B4961B372E1A666 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +74,12 @@
 		0ED5B24C1E9B6FBF00BF7408 /* React_Native_Summary */ = {
 			isa = PBXGroup;
 			children = (
+				0ED5B2BF1E9E22A900BF7408 /* Examples */,
+				0ED5B2BB1E9E1CEF00BF7408 /* WrappedViewFromRN */,
 				0ED5B2501E9B6FBF00BF7408 /* AppDelegate.h */,
 				0ED5B2511E9B6FBF00BF7408 /* AppDelegate.m */,
-				0ED5B2531E9B6FBF00BF7408 /* ViewController.h */,
-				0ED5B2541E9B6FBF00BF7408 /* ViewController.m */,
+				0ED5B2641E9B7C9B00BF7408 /* RootTVC.h */,
+				0ED5B2651E9B7C9B00BF7408 /* RootTVC.m */,
 				0ED5B2561E9B6FBF00BF7408 /* Main.storyboard */,
 				0ED5B2591E9B6FBF00BF7408 /* Assets.xcassets */,
 				0ED5B25B1E9B6FBF00BF7408 /* LaunchScreen.storyboard */,
@@ -79,6 +97,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0ED5B2BB1E9E1CEF00BF7408 /* WrappedViewFromRN */ = {
+			isa = PBXGroup;
+			children = (
+				0ED5B2BC1E9E1D8E00BF7408 /* WrappedRNView.h */,
+				0ED5B2BD1E9E1D8E00BF7408 /* WrappedRNView.m */,
+				0ED5B2C31E9E22F800BF7408 /* WrappedRNViewController.h */,
+				0ED5B2C41E9E22F800BF7408 /* WrappedRNViewController.m */,
+			);
+			path = WrappedViewFromRN;
+			sourceTree = "<group>";
+		};
+		0ED5B2BF1E9E22A900BF7408 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				0EFA45021E9E4CA4004E226F /* NativePushRNController.h */,
+				0EFA45031E9E4CA4004E226F /* NativePushRNController.m */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		21FB91179B4961B372E1A666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96543C4F98C2240E2A2A9189 /* libPods-React_Native_Summary.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1E09BCF6A03E31C5DA2CD79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D964C1F31C4B1B9B364DAF3B /* Pods-React_Native_Summary.debug.xcconfig */,
+				9B5680843FA0A4A3A924B9D8 /* Pods-React_Native_Summary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ED5B2611E9B6FBF00BF7408 /* Build configuration list for PBXNativeTarget "React_Native_Summary" */;
 			buildPhases = (
+				A77999FD5EF5140478B23A48 /* [CP] Check Pods Manifest.lock */,
 				0ED5B2461E9B6FBF00BF7408 /* Sources */,
 				0ED5B2471E9B6FBF00BF7408 /* Frameworks */,
 				0ED5B2481E9B6FBF00BF7408 /* Resources */,
+				23E2ED8C90D1DD096DADC9A9 /* [CP] Embed Pods Frameworks */,
+				2B42C6FA8F4EF181B5422157 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,13 +203,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23E2ED8C90D1DD096DADC9A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-React_Native_Summary/Pods-React_Native_Summary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B42C6FA8F4EF181B5422157 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-React_Native_Summary/Pods-React_Native_Summary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A77999FD5EF5140478B23A48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0ED5B2461E9B6FBF00BF7408 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ED5B2551E9B6FBF00BF7408 /* ViewController.m in Sources */,
+				0EFA45041E9E4CA4004E226F /* NativePushRNController.m in Sources */,
+				0ED5B2BE1E9E1D8E00BF7408 /* WrappedRNView.m in Sources */,
 				0ED5B2521E9B6FBF00BF7408 /* AppDelegate.m in Sources */,
+				0ED5B2661E9B7C9B00BF7408 /* RootTVC.m in Sources */,
+				0ED5B2C51E9E22F800BF7408 /* WrappedRNViewController.m in Sources */,
 				0ED5B24F1E9B6FBF00BF7408 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +377,7 @@
 		};
 		0ED5B2621E9B6FBF00BF7408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D964C1F31C4B1B9B364DAF3B /* Pods-React_Native_Summary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = React_Native_Summary/Info.plist;
@@ -279,6 +389,7 @@
 		};
 		0ED5B2631E9B6FBF00BF7408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5680843FA0A4A3A924B9D8 /* Pods-React_Native_Summary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = React_Native_Summary/Info.plist;
@@ -307,6 +418,7 @@
 				0ED5B2631E9B6FBF00BF7408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

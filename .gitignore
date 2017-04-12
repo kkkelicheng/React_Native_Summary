@@ -50,3 +50,16 @@ fastlane/test_output
 # After new code Injection tools there's a generated folder /iOSInjectionProject
 # https://github.com/johnno1962/injectionforxcode
 iOSInjectionProject/
+
+
+
+
+# for react-native
+node_modules/
+
+
+# for webStorm
+.idea/
+
+
+
