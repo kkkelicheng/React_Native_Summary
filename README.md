@@ -122,7 +122,7 @@
 	
 	该类在JS的componentDidMount方法中调用此类，此时WrappedRNController中的view已经加载完。
 
-##Examples都是例子文件
+## Examples都是例子文件
 
 
 
