@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EA3A8901EA46E6D00AF583A /* ExportedRNController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3A88F1EA46E6D00AF583A /* ExportedRNController.m */; };
+		0EA3A8D41EA8A2EA00AF583A /* RNPushNativeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3A8D31EA8A2EA00AF583A /* RNPushNativeController.m */; };
 		0ED5B24F1E9B6FBF00BF7408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B24E1E9B6FBF00BF7408 /* main.m */; };
 		0ED5B2521E9B6FBF00BF7408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B2511E9B6FBF00BF7408 /* AppDelegate.m */; };
 		0ED5B2581E9B6FBF00BF7408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED5B2561E9B6FBF00BF7408 /* Main.storyboard */; };
@@ -14,12 +16,16 @@
 		0ED5B25D1E9B6FBF00BF7408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED5B25B1E9B6FBF00BF7408 /* LaunchScreen.storyboard */; };
 		0ED5B2661E9B7C9B00BF7408 /* RootTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B2651E9B7C9B00BF7408 /* RootTVC.m */; };
 		0ED5B2BE1E9E1D8E00BF7408 /* WrappedRNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B2BD1E9E1D8E00BF7408 /* WrappedRNView.m */; };
-		0ED5B2C51E9E22F800BF7408 /* WrappedRNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B2C41E9E22F800BF7408 /* WrappedRNViewController.m */; };
+		0ED5B2C51E9E22F800BF7408 /* WrappedRNController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B2C41E9E22F800BF7408 /* WrappedRNController.m */; };
 		0EFA45041E9E4CA4004E226F /* NativePushRNController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA45031E9E4CA4004E226F /* NativePushRNController.m */; };
 		A1811C7795D1EF4AA40523FD /* libPods-React_Native_Summary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96543C4F98C2240E2A2A9189 /* libPods-React_Native_Summary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EA3A88E1EA46E6D00AF583A /* ExportedRNController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportedRNController.h; sourceTree = "<group>"; };
+		0EA3A88F1EA46E6D00AF583A /* ExportedRNController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExportedRNController.m; sourceTree = "<group>"; };
+		0EA3A8D21EA8A2EA00AF583A /* RNPushNativeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPushNativeController.h; sourceTree = "<group>"; };
+		0EA3A8D31EA8A2EA00AF583A /* RNPushNativeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPushNativeController.m; sourceTree = "<group>"; };
 		0ED5B24A1E9B6FBF00BF7408 /* React_Native_Summary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = React_Native_Summary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED5B24E1E9B6FBF00BF7408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0ED5B2501E9B6FBF00BF7408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,8 +38,8 @@
 		0ED5B2651E9B7C9B00BF7408 /* RootTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTVC.m; sourceTree = "<group>"; };
 		0ED5B2BC1E9E1D8E00BF7408 /* WrappedRNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrappedRNView.h; sourceTree = "<group>"; };
 		0ED5B2BD1E9E1D8E00BF7408 /* WrappedRNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrappedRNView.m; sourceTree = "<group>"; };
-		0ED5B2C31E9E22F800BF7408 /* WrappedRNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrappedRNViewController.h; sourceTree = "<group>"; };
-		0ED5B2C41E9E22F800BF7408 /* WrappedRNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrappedRNViewController.m; sourceTree = "<group>"; };
+		0ED5B2C31E9E22F800BF7408 /* WrappedRNController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrappedRNController.h; sourceTree = "<group>"; };
+		0ED5B2C41E9E22F800BF7408 /* WrappedRNController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrappedRNController.m; sourceTree = "<group>"; };
 		0EFA45021E9E4CA4004E226F /* NativePushRNController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativePushRNController.h; sourceTree = "<group>"; };
 		0EFA45031E9E4CA4004E226F /* NativePushRNController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativePushRNController.m; sourceTree = "<group>"; };
 		96543C4F98C2240E2A2A9189 /* libPods-React_Native_Summary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-React_Native_Summary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,8 +108,10 @@
 			children = (
 				0ED5B2BC1E9E1D8E00BF7408 /* WrappedRNView.h */,
 				0ED5B2BD1E9E1D8E00BF7408 /* WrappedRNView.m */,
-				0ED5B2C31E9E22F800BF7408 /* WrappedRNViewController.h */,
-				0ED5B2C41E9E22F800BF7408 /* WrappedRNViewController.m */,
+				0ED5B2C31E9E22F800BF7408 /* WrappedRNController.h */,
+				0ED5B2C41E9E22F800BF7408 /* WrappedRNController.m */,
+				0EA3A88E1EA46E6D00AF583A /* ExportedRNController.h */,
+				0EA3A88F1EA46E6D00AF583A /* ExportedRNController.m */,
 			);
 			path = WrappedViewFromRN;
 			sourceTree = "<group>";
@@ -113,6 +121,8 @@
 			children = (
 				0EFA45021E9E4CA4004E226F /* NativePushRNController.h */,
 				0EFA45031E9E4CA4004E226F /* NativePushRNController.m */,
+				0EA3A8D21EA8A2EA00AF583A /* RNPushNativeController.h */,
+				0EA3A8D31EA8A2EA00AF583A /* RNPushNativeController.m */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -258,9 +268,11 @@
 			files = (
 				0EFA45041E9E4CA4004E226F /* NativePushRNController.m in Sources */,
 				0ED5B2BE1E9E1D8E00BF7408 /* WrappedRNView.m in Sources */,
+				0EA3A8901EA46E6D00AF583A /* ExportedRNController.m in Sources */,
 				0ED5B2521E9B6FBF00BF7408 /* AppDelegate.m in Sources */,
 				0ED5B2661E9B7C9B00BF7408 /* RootTVC.m in Sources */,
-				0ED5B2C51E9E22F800BF7408 /* WrappedRNViewController.m in Sources */,
+				0ED5B2C51E9E22F800BF7408 /* WrappedRNController.m in Sources */,
+				0EA3A8D41EA8A2EA00AF583A /* RNPushNativeController.m in Sources */,
 				0ED5B24F1E9B6FBF00BF7408 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

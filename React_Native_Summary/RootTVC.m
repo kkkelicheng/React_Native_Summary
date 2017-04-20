@@ -9,7 +9,6 @@
 #import "RootTVC.h"
 #import "NativePushRNController.h"
 
-
 @interface RootTVC ()
 @property (nonatomic,copy) NSArray * datas;
 @end
@@ -24,7 +23,8 @@
 - (NSArray *)datas {
     if (!_datas) {
         _datas = @[@"native push react",
-                   @"native push react 2"];
+                   @"native push react 2",
+                   ];
     }
     return _datas;
 }

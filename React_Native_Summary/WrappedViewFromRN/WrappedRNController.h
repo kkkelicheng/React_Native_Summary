@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ExportedRNController.h"
+
+
+@class WrappedRNController;
 
 @interface WrappedRNController : UIViewController
 

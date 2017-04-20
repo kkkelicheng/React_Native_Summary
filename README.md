@@ -90,21 +90,30 @@
 在工程的根目录新建一个ios.index.js，入口就是这里了。以后的工作都是从这里开始。
 ##ReactNativeComponent中都是js页面
 ##WrappedViewFromRN封装的View和Controller
-- WrappedRNView
+- **WrappedRNView**
 
  对ReactNative初始化来的View进行了一层包装方便使用。
 	
-- WrappedRNViewController
+- **WrappedRNViewController**
 	
 	对WrappedRNView进行了一层包装,直接加到了controller的rootView上，而没有进行替换。方便做其他的改动。
+
+- **ExportedRNController**
+	
+	这个类其实继承自NSObject的，是自定义的一个JS向Native通信类。配合WrappedRNController使用，JS向Native发消息控制此对象中的WrappedRNController做出相应的动作。
+	
+	该类在JS的componentDidMount方法中调用此类，此时WrappedRNController中的view已经加载完。
 
 ##Examples都是例子文件
 
 
 #功能
 #### 原生多入口进入RN页面
-#### RN页面退出进入原生页面
+#### RN页面pop&push进入原生页面
+这里的设计是RN页面跟原生的页面通信，将原生的页面暴露出来。
+在项目中将Controller这个类以及Controller这个类的某些方法暴露给JS去调用。从而达到控制页面跳转的功能。
 
+顺便说一下，RN自己实现的页面跳转那压根就不是页面跳转，因为没有controller去控制。
 
 
 

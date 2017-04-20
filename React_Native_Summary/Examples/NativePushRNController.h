@@ -6,7 +6,7 @@
 //  Copyright © 2017年 licheng ke. All rights reserved.
 //
 
-#import "WrappedRNViewController.h"
+#import "WrappedRNController.h"
 
 @interface NativePushRNController : WrappedRNController
 

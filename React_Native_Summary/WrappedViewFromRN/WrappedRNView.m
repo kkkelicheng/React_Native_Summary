@@ -37,9 +37,10 @@
                                                  initialProperties:self.info
                                                      launchOptions:nil];
     
-    //将ReactNativeView加入到自己的视图，设置约束
-    reactNativeView.translatesAutoresizingMaskIntoConstraints = NO;
     [self addSubview:reactNativeView];
+    //将ReactNativeView加入到自己的视图，设置约束
+    
+    reactNativeView.translatesAutoresizingMaskIntoConstraints = NO;
     
     NSDictionary *views = @{@"reactNativeView": reactNativeView};
     NSArray *constraints = @[];
@@ -48,6 +49,7 @@
     
     [self addConstraints:constraints];
     [self layoutIfNeeded];
+    
 }
 
 
