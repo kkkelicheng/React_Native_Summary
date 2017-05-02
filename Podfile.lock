@@ -1,4 +1,8 @@
 PODS:
+  - React (0.42.3):
+    - React/Core (= 0.42.3)
+  - react-native-orientation (1.17.0):
+    - React
   - React/Core (0.42.3):
     - React/cxxreact
     - Yoga (= 0.42.3.React)
@@ -14,6 +18,7 @@ PODS:
   - Yoga (0.42.3.React)
 
 DEPENDENCIES:
+  - react-native-orientation (from `./node_modules/react-native-orientation`)
   - React/Core (from `./node_modules/react-native`)
   - React/RCTNetwork (from `./node_modules/react-native`)
   - React/RCTText (from `./node_modules/react-native`)
@@ -23,13 +28,16 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   React:
     :path: ./node_modules/react-native
+  react-native-orientation:
+    :path: ./node_modules/react-native-orientation
   Yoga:
     :path: ./node_modules/react-native/ReactCommon/yoga
 
 SPEC CHECKSUMS:
   React: 35e039680feacd0563677d49ba410112d2748559
+  react-native-orientation: d955450566adb8a1dc471a4d9c83cdca0aff832a
   Yoga: 86ce777665c8259b94ef8dbea76b84634237f4ea
 
-PODFILE CHECKSUM: d95f4ddfd84b6c7cf0d71f6d997c89a350ad23a1
+PODFILE CHECKSUM: aae8a873014ff8c2dab59934bc21e26170eff353
 
 COCOAPODS: 1.2.1

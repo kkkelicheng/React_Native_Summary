@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Orientation.h"
 
 @interface AppDelegate ()
 
@@ -45,6 +46,10 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return [Orientation getOrientation];
 }
 
 

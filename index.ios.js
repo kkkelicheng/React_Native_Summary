@@ -9,6 +9,8 @@ import {
 } from 'react-native';
 import RedView from './ReactNativeComponent/RedView';
 import GreenView from './ReactNativeComponent/GreenView';
+import Rotation from './ReactNativeComponent/Rotation';
+import TestMap from './ReactNativeComponent/TestMapView';
 
 /*
  * 所有的原生转入react-native的入口其实已经在内存中了
@@ -17,7 +19,9 @@ import GreenView from './ReactNativeComponent/GreenView';
 
 const Views = {
     redView : RedView,
-    greenView : GreenView
+    greenView : GreenView,
+    rotation : Rotation,
+    testMap : TestMap
 };
 
 

@@ -24,7 +24,8 @@
     if (!_datas) {
         _datas = @[@"native push react",
                    @"native push react 2",
-                   ];
+                   @"rotationScreen",
+                   @"test  Map"];
     }
     return _datas;
 }
@@ -59,6 +60,12 @@
             break;
             case 1:
                 controller = [[NativePushRNController alloc]initWrappedRNWithInfo:@{@"page":@"greenView"}];
+            break;
+            case 2:
+            controller = [[NativePushRNController alloc]initWrappedRNWithInfo:@{@"page":@"rotation"}];
+            break;
+            case 3:
+            controller = [[NativePushRNController alloc]initWrappedRNWithInfo:@{@"page":@"testMap"}];
             break;
         default:
             break;

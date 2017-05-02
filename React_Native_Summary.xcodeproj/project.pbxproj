@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E35120C1EAF4A1700106EF1 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E35120B1EAF4A1700106EF1 /* RotationViewController.m */; };
+		0E3DDB4A1EB8BA9D007345C6 /* KLCMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DDB491EB8BA9D007345C6 /* KLCMapViewManager.m */; };
+		0E3DDB4D1EB8BAB0007345C6 /* KLCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DDB4C1EB8BAB0007345C6 /* KLCMapView.m */; };
 		0EA3A8901EA46E6D00AF583A /* ExportedRNController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3A88F1EA46E6D00AF583A /* ExportedRNController.m */; };
 		0EA3A8D41EA8A2EA00AF583A /* RNPushNativeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3A8D31EA8A2EA00AF583A /* RNPushNativeController.m */; };
 		0ED5B24F1E9B6FBF00BF7408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5B24E1E9B6FBF00BF7408 /* main.m */; };
@@ -22,6 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E35120A1EAF4A1700106EF1 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		0E35120B1EAF4A1700106EF1 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		0E3DDB481EB8BA9D007345C6 /* KLCMapViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCMapViewManager.h; sourceTree = "<group>"; };
+		0E3DDB491EB8BA9D007345C6 /* KLCMapViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCMapViewManager.m; sourceTree = "<group>"; };
+		0E3DDB4B1EB8BAB0007345C6 /* KLCMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCMapView.h; sourceTree = "<group>"; };
+		0E3DDB4C1EB8BAB0007345C6 /* KLCMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCMapView.m; sourceTree = "<group>"; };
 		0EA3A88E1EA46E6D00AF583A /* ExportedRNController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportedRNController.h; sourceTree = "<group>"; };
 		0EA3A88F1EA46E6D00AF583A /* ExportedRNController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExportedRNController.m; sourceTree = "<group>"; };
 		0EA3A8D21EA8A2EA00AF583A /* RNPushNativeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPushNativeController.h; sourceTree = "<group>"; };
@@ -59,6 +68,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E3DDB331EB8700C007345C6 /* WrappedNativeComponents */ = {
+			isa = PBXGroup;
+			children = (
+				0E3DDB481EB8BA9D007345C6 /* KLCMapViewManager.h */,
+				0E3DDB491EB8BA9D007345C6 /* KLCMapViewManager.m */,
+				0E3DDB4B1EB8BAB0007345C6 /* KLCMapView.h */,
+				0E3DDB4C1EB8BAB0007345C6 /* KLCMapView.m */,
+			);
+			path = WrappedNativeComponents;
+			sourceTree = "<group>";
+		};
 		0ED5B2411E9B6FBF00BF7408 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +100,7 @@
 		0ED5B24C1E9B6FBF00BF7408 /* React_Native_Summary */ = {
 			isa = PBXGroup;
 			children = (
+				0E3DDB331EB8700C007345C6 /* WrappedNativeComponents */,
 				0ED5B2BF1E9E22A900BF7408 /* Examples */,
 				0ED5B2BB1E9E1CEF00BF7408 /* WrappedViewFromRN */,
 				0ED5B2501E9B6FBF00BF7408 /* AppDelegate.h */,
@@ -123,6 +144,8 @@
 				0EFA45031E9E4CA4004E226F /* NativePushRNController.m */,
 				0EA3A8D21EA8A2EA00AF583A /* RNPushNativeController.h */,
 				0EA3A8D31EA8A2EA00AF583A /* RNPushNativeController.m */,
+				0E35120A1EAF4A1700106EF1 /* RotationViewController.h */,
+				0E35120B1EAF4A1700106EF1 /* RotationViewController.m */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -266,10 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E35120C1EAF4A1700106EF1 /* RotationViewController.m in Sources */,
 				0EFA45041E9E4CA4004E226F /* NativePushRNController.m in Sources */,
 				0ED5B2BE1E9E1D8E00BF7408 /* WrappedRNView.m in Sources */,
 				0EA3A8901EA46E6D00AF583A /* ExportedRNController.m in Sources */,
+				0E3DDB4A1EB8BA9D007345C6 /* KLCMapViewManager.m in Sources */,
 				0ED5B2521E9B6FBF00BF7408 /* AppDelegate.m in Sources */,
+				0E3DDB4D1EB8BAB0007345C6 /* KLCMapView.m in Sources */,
 				0ED5B2661E9B7C9B00BF7408 /* RootTVC.m in Sources */,
 				0ED5B2C51E9E22F800BF7408 /* WrappedRNController.m in Sources */,
 				0EA3A8D41EA8A2EA00AF583A /* RNPushNativeController.m in Sources */,

@@ -14,5 +14,6 @@ target 'React_Native_Summary' do
   ]
   # 如果你的RN版本 >= 0.42.0，请加入下面这行
   pod "Yoga", :path => "./node_modules/react-native/ReactCommon/yoga"
+  pod "react-native-orientation", :path => "./node_modules/react-native-orientation"
 
 end
